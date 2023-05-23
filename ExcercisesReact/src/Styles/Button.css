@@ -1,0 +1,29 @@
+.buttonContainer {
+    margin-top: 30px;
+}
+
+button {
+    margin-right: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    width: 30vh;
+    height: 10vh;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px;
+}
+
+button:hover {
+    color: black;
+}
+
+@media (max-width: 728px) {
+    button {
+        width: 15vh;
+        height: 5vh;
+        margin-right: 25px;
+        font-size: 15px;
+    }
+}

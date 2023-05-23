@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    text-align: center;
+}
+
+.LinkOpenLibrary {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    background-color: brown;
+    border: solid 1px black;
+    box-shadow: 0 0 20px 0 brown;
+    border-radius: 10px;
+}

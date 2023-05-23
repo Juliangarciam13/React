@@ -1,0 +1,35 @@
+a:hover {
+    color:aqua;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.menuList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.menuItem {
+    margin-right: 80px;
+    color: white;
+}
+
+@media (max-width: 728px) {
+    li {
+        font-size: 20px;
+    }
+    .menuItem{
+        margin-right: 15px;
+    }
+}
